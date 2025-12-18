@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>Personal Portfolio</title>
+		<link rel="style" href="style.css">
+		<style type="text/css">
+			body{
+				background:black;
+				color:white;
+				text-align: center;
+				font-family:"Poppins", "sans-serif;";
+				font-size: 1.5rem;
+				padding:3rem;
+			}
+			.project-info{
+				border:2px solid #b74b4b;
+				border-radius:4px;
+				width:75%;
+				height:75%;
+				text-align:center;
+				padding:25px;
+				cursor: pointer;
+			}
+			.webapp-project, .website-container{
+				position: relative;
+				left:2.5rem;
+				align-content: center;
+				justify-content: center;
+				text-align: center;
+				display:grid;
+				grid-template-columns:repeat(3, 1fr);
+				gap:5;
+			}
+			
+			.webapp-project .project-info button{
+				letter-spacing:0.2rem;
+				padding:4px 10px;
+				background: #b74b4b;
+				border:2px solid #b74b4b;
+				border-radius:2px;
+				cursor: pointer;
+				transition: backgroun-color ease-in 0.4s;
+			}
+			.webapp-project .project-info button{
+				transform:scale3d(1.03);
+				background-color: #b74b4b;
+				box-shadow: 0 0 35px #b74b4b;
+				transition: ease-out 0.4s;
+			}
+			.webapp-project .project-info button:hover{
+				transform:scale3d(1.03);
+				background-color: #b74b4b;
+				box-shadow: 0 0 0px #b74b4b;
+			}
+			.webapp-project .project-info button a{
+				text-decoration: none;
+				color:whitesmoke;
+				cursor: pointer;
+				font-family:"Poppins", "sans-serif;";
+				font-size: 1.1rem;
+			}
+			.website-container .project-info button{
+				letter-spacing:0.2rem;
+				padding:4px 10px;
+				background: #b74b4b;
+				border:2px solid #b74b4b;
+				border-radius:2px;
+				cursor: pointer;
+				transition: backgroun-color ease-in 0.4s;
+			}
+			.website-container .project-info button a{
+				text-decoration: none;
+				color:whitesmoke;
+				cursor: pointer;
+				font-family:"Poppins", "sans-serif;";
+				font-size: 1.1rem;
+			}
+			.website-container .project-info button{
+				transform:scale3d(1.03);
+				background-color: #b74b4b;
+				box-shadow: 0 0 35px #b74b4b;
+				transition: ease-out 0.4s;
+			}
+			.website-container .project-info button:hover{
+				transform:scale3d(0.03);
+				background-color: #b74b4b;
+				box-shadow: 0 0 0px #b74b4b;
+				
+			}a{
+				text-decoration: none;
+				color:whitesmoke;
+			}
+			@media(max-width:995px){
+				.webapp-project, .website-container{
+					position: relative;
+					left:2.5rem;
+					align-content: center;
+					justify-content: center;
+					text-align: center;
+					display:grid;
+					grid-template-columns:repeat(1, 1fr);
+					gap:5;
+				}
+				button{
+					display: none;
+				}
+				a{
+					display: block;
+				}
+				button .P{
+					position:relative; bottom: 5.9rem;
+				}
+			
+			}
+		</style>
+	</head>
+	<body>
+		<content>
+			<h2>Freelance Websites</h2>
+			<div class="website-container">
+				
+				<div class="project-info">
+					<h2>Plumbing & Drainage Company</h2>
+					<a href="https://drainageplumbling.netlify.app/" class="link"><p>They provide expert services in plumbing and drainage services</p></a>
+					<button style="position:relative; top: 6.0rem;"><a href="#" class="P">View Project</a></button>
+				</div>
+				<div class="project-info">
+					<h2>Diverse Merchants</h2>
+					<a href="warm-kashata-a116df.netlify.app" class="link"><p>They provide expert maintenance services across Namibia - keeping the clients property in excellent condition with fast, professional, and affordable work.</p></a>
+					<button style="position:relative; top: 2.0rem;"><a href="#">View Project</a></button>
+				</div>
+				<div class="project-info">
+					<h2>Vollmond Engineering CC </h2>
+					<a href="https://magenta-axolotl-61267d.netlify.app/" class="link"><p>Vollmond Engineering CC, they are a dedicated team that provide top-quality solar and electrical solutions for residential, commercial, and industrial clients.</p></a>
+					<button style="position:relative; bottom:0.5rem;"><a href="#">View Project</a></button>
+				</div>
+				<div class="project-info">
+					<h2>Sneaker E-commerce</h2>
+					<a href="chimerical-salamander-61fb8a.netlify.app" class="link"><p>A modern and responsive e-commerce website designed for selling sneakers online</p></a>
+					<button><a href="#">View Project</a></button>
+				</div>
+			</div>
+			<div class="webApps-container">
+				<h2>Web Application</h2>
+				<div class="webapp-project">
+					
+					<div class="project-info">
+						
+						<h2>Fake News Detector</h2>
+						<a href="https://github.com/saint-02/Fake-News-Detector" class="link"><p>An AI powered web app that determines whether the news is of fake or original source</p></a>
+						<button style="position:relative; top: 3.4rem;"><a href="#">View Project</a></button>
+					</div>
+					<div class="project-info">
+						
+						<h2>Wireless File Explorer</h2>
+						<a href="https://github.com/saint-02/Wireless-File-Explorer" class="link"><p>Access your Android phone's files on your PC over wifi - no cables needed.</p></a>
+						<button style="position:relative; top: 0.7rem;"><a href="#">View Project</a></button>
+					</div>
+					<div class="project-info">
+						
+						<h2>Road Congestion Tracker</h2>
+						<a href="https://github.com/saint-02/Road-Congestion-Tracker" class="link"><p>A real-time traffic monitoring system that collects and visualizes road congestion data.</p></a>
+						<button style="position:relative; top: 0.5rem;"><a href="#">View Project</a></button>
+					</div>
+					<div class="project-info">
+						<h2>Menstrual Cycle App</h2>
+			 			<a href="https://github.com/saint-02/Menstrual-Webapp" class="link"><p>An AI powered web app that track user's menstrual cycle, educates and a chatbot that answers to users questions.</p></a>
+			 			<button><a href="#">View Project</a></button>
+					</div>
+				</div>
+				
+			</div>
+		</content>
+	</body>
+</html>
